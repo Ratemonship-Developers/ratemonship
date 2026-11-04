@@ -1,6 +1,7 @@
 .stats-grid { 
   display: flex; 
   gap: 25px; 
+  flex-wrap: wrap;
 }
 
 .stat-box { 
@@ -10,6 +11,10 @@
   border-radius: 8px; 
   border-width: 2px;
   border-style: solid;
+}
+
+.stat-box strong {
+    font-size: 28px;
 }
 
 /* Unique color variations */
