@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .stats-grid { 
   display: flex; 
   gap: 25px; 
