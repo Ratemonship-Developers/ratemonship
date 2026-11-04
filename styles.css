@@ -1,6 +1,6 @@
 .stats-grid {
     display: flex;
-    gap: 16px;      
+    gap: 25px;      
 }
 .my-box {
     width: 300px;         
