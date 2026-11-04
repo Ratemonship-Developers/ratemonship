@@ -1,34 +1,29 @@
 .stats-grid { 
   display: flex; 
   gap: 25px; 
-} 
+}
 
-.my-boxtotalships { 
+.stat-box { 
   width: 300px; 
   height: 100px; 
+  padding: 20px; 
+  border-radius: 8px; 
+  border-width: 2px;
+  border-style: solid;
+}
+
+/* Unique color variations */
+.stat-box.total-ships { 
   color: #124dc4; 
-  border: 2px solid #124dc4; 
-  padding: 20px; 
-  border-radius: 8px; /* Rounds the corners of the box */
-  
+  border-color: #124dc4; 
 }
 
-.my-boxhealthy { 
-  width: 300px; 
-  height: 100px; 
+.stat-box.healthy { 
   color: #6a994e; 
-  border: 2px solid #6a994e; 
-  padding: 20px; 
-  border-radius: 8px; /* Rounds the corners of the box */
-  
+  border-color: #6a994e; 
 }
 
-.my-boxattention { 
-  width: 300px; 
-  height: 100px; 
+.stat-box.attention { 
   color: #ffc300; 
-  border: 2px solid #ffc300; 
-  padding: 20px; 
-  border-radius: 8px; /* Rounds the corners of the box */
-  
+  border-color: #ffc300; 
 }
