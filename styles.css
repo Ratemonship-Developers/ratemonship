@@ -23,11 +23,12 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    height: 100%
 }
 
 .stat-content i {
     font-size: 30px;
-    margin-top: 8px;
+    flex-shrink: 0;
 }
 
 .stat-box strong {
