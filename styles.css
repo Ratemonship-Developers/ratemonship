@@ -157,5 +157,13 @@
 }
 
 
+.statTwo-box { 
+  width: 50px; 
+  height: 100px; 
+  padding: 20px; 
+  border-radius: 8px; 
+  border-width: 2px;
+  border-style: solid;
+}
 
 
