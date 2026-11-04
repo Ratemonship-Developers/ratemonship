@@ -3,7 +3,9 @@
 }
 
 .stats-grid { 
-  display: flex; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 25px; 
   flex-wrap: wrap;
 }
@@ -25,6 +27,7 @@
 
 .stat-content i {
     font-size: 30px;
+    margin-top: 8px;
 }
 
 .stat-box strong {
