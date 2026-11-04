@@ -157,6 +157,8 @@
 }
 
 
+
+
 .statTwo-box {
     width: 100%;
     min-height: 300px;
@@ -169,4 +171,35 @@
 .statTwo-box h3 {
     color: #000000;
     margin-bottom: 20px;
+}
+
+.alert-item {
+  justify-content: center;
+  align-items: center;
+  gap: 25px; 
+  flex-wrap: wrap;
+}
+
+.alert-item i {
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.alert-item:nth-child(2) i {
+    color: #d00000;
+}
+
+.alert-item:nth-child(3) i {
+    color: #ffc300;
+}
+
+.alert-item p {
+    font-size: 13px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.alert-item span {
+    font-size: 11px;
+    color: #999;
 }
