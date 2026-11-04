@@ -17,6 +17,10 @@
     font-size: 28px;
 }
 
+.stat-box h3 {
+    margin-top: 0;
+}
+
 /* Unique color variations */
 .stat-box.total-ships { 
   color: #124dc4; 
