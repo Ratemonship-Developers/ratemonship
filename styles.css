@@ -75,7 +75,7 @@
 
 .fleet-overview h2 {
     margin-bottom: 25px;
-    color: #17365d;
+    color: #000000;
 }
 
 .health-container {
@@ -117,9 +117,9 @@
     color: #17365d;
 }
 
-.chart-center span {
+.chart-center p {
     font-size: 13px;
-    color: #666;
+    color: #000000;
 }
 
 .health-legend {
