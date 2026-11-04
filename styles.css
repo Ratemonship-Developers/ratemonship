@@ -157,13 +157,16 @@
 }
 
 
-.statTwo-box { 
-  width: 50px; 
-  height: 100px; 
-  padding: 20px; 
-  border-radius: 8px; 
-  border-width: 2px;
-  border-style: solid;
+.statTwo-box {
+    width: 100%;
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background-color: white;
 }
 
-
+.statTwo-box h3 {
+    color: #000000;
+    margin-bottom: 20px;
+}
