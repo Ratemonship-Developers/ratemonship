@@ -4,10 +4,9 @@
 }
 .my-boxtotalships {
     width: 300px;         
-    height: 100px;        
-    background-color: #03045e;
+    height: 100px;       
     
-    border: 2px solid #333;      
+    border: 2px solid #03045e;      
     padding: 20px;               
     margin: 15px;              
     border-radius: 8px;          /* Rounds the corners of the box */
