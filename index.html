@@ -61,66 +61,68 @@
     </div>
     
     </section>
-    
-    <! -- Fleet Health Overview -->
-    <section class="fleet-overview">
-    <h2>Fleet Health Overview</h2>
 
-    <div class="health-container">
-        <div class="chart">
-            <div class="donut-chart">
-                <div class="chart-center">
-                    <strong>5</strong>
-                    <p>Total Ships</p>
+    <div class="dashboard-grid"> 
+    
+        <! -- Fleet Health Overview -->
+        <section class="fleet-overview">
+        <h2>Fleet Health Overview</h2>
+
+        <div class="health-container">
+            <div class="chart">
+                <div class="donut-chart">
+                    <div class="chart-center">
+                        <strong>5</strong>
+                        <p>Total Ships</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="health-legend">
+                <div class="legend-item">
+                    <span class="legend-color healthy-color"></span>
+                    <p>Healthy</p>
+                    <strong>3</strong>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color attention-color"></span>
+                    <p>Needs Attention</p>
+                    <strong>1</strong>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color critical-color"></span>
+                    <p>Critical</p>
+                    <strong>1</strong>
                 </div>
             </div>
         </div>
+        </section>
 
-        <div class="health-legend">
-            <div class="legend-item">
-                <span class="legend-color healthy-color"></span>
-                <p>Healthy</p>
-                <strong>3</strong>
+        <! -- Recent Alerts -->
+        <section class="recent-alerts">
+        <div class="statTwo-box">
+            <h3>Recent Alerts</h3>
+
+            <div class="alert-item Danger">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <div>
+                    <strong>Engine temperature high-RM-003</strong>
+                    <p>2 hours ago</p>
+                </div>
             </div>
 
-            <div class="legend-item">
-                <span class="legend-color attention-color"></span>
-                <p>Needs Attention</p>
-                <strong>1</strong>
+            <div class="alert-item Warning">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <div>
+                    <strong>Low fuel level-RM-006</strong>
+                    <p>8 hours ago</p>
+                </div>
             </div>
-
-            <div class="legend-item">
-                <span class="legend-color critical-color"></span>
-                <p>Critical</p>
-                <strong>1</strong>
-            </div>
-        </div>
+            
+        </section>
     </div>
-    </section>
-
-    <! -- Recent Alerts -->
-    <section class="recent-alerts">
-    <div class="statTwo-box">
-        <h3>Recent Alerts</h3>
-
-        <div class="alert-item Danger">
-            <i class="fa-solid fa-circle-exclamation"></i>
-            <div>
-                <strong>Engine temperature high-RM-003</strong>
-                <p>2 hours ago</p>
-            </div>
-        </div>
-
-        <div class="alert-item Warning">
-            <i class="fa-solid fa-triangle-exclamation"></i>
-            <div>
-                <strong>Low fuel level-RM-006</strong>
-                <p>8 hours ago</p>
-            </div>
-        </div>
-
-    </div>
-    </section>
     
 </main>
 </body>
