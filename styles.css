@@ -15,7 +15,16 @@
   border-radius: 8px; 
   border-width: 2px;
   border-style: solid;
-  text-align: right; 
+}
+
+.stat-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.stat-content i {
+    font-size: 32px;
 }
 
 .stat-box strong {
