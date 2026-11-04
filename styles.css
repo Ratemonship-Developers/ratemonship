@@ -2,3 +2,14 @@
     display: flex;
     gap: 16px;      
 }
+.my-box {
+    width: 300px;         
+    height: 200px;        
+    background-color: lightblue;
+    
+    
+    border: 2px solid #333;      
+    padding: 20px;               
+    margin: 15px;              
+    border-radius: 8px;          /* Rounds the corners of the box */
+}
