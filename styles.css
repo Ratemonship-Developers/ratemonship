@@ -185,11 +185,11 @@
     margin-top: 3px;
 }
 
-.alert-item:nth-child(2) i {
+.alert-item:nth-child(1) i {
     color: #d00000;
 }
 
-.alert-item:nth-child(3) i {
+.alert-item:nth-child(2) i {
     color: #ffc300;
 }
 
@@ -197,9 +197,4 @@
     font-size: 13px;
     color: #666;
     margin: 5px 0;
-}
-
-.alert-item span {
-    font-size: 11px;
-    color: #999;
 }
