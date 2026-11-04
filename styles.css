@@ -22,3 +22,13 @@
   border-radius: 8px; /* Rounds the corners of the box */
   
 }
+
+.my-boxattention { 
+  width: 300px; 
+  height: 100px; 
+  color: #ffc300; 
+  border: 2px solid #ffc300; 
+  padding: 20px; 
+  border-radius: 8px; /* Rounds the corners of the box */
+  
+}
