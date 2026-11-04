@@ -185,11 +185,11 @@
     margin-top: 3px;
 }
 
-.alert-itemOne {
+.alert-item.Danger {
     color: #d00000;
 }
 
-.alert-itemTwo {
+.alert-item.Warning {
     color: #ffc300;
 }
 
