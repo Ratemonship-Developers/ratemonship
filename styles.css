@@ -28,11 +28,6 @@
   border-color: #ffc300; 
 }
 
-.stat-box.attention { 
-  color: #ffc300; 
-  border-color: #ffc300; 
-}
-
 .stat-box.critical { 
   color: #d00000; 
   border-color: #d00000; 
