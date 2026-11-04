@@ -61,13 +61,100 @@
   border-color: #d00000; 
 }
 
-.stat-boxTwo { 
-  width: 250px; 
-  height: 140px; 
-  padding: 20px; 
-  border-radius: 8px; 
-  border-width: 2px;
-  border-style: solid;
+
+
+.fleet-overview {
+    background-color: white;
+    padding: 25px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fleet-overview h2 {
+    margin-bottom: 25px;
+    color: #17365d;
+}
+
+.health-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.donut-chart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #6a994e 0% 60%,
+        #ffc300 60% 80%,
+        #d00000 80% 100%
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-center {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-center strong {
+    font-size: 30px;
+    color: #17365d;
+}
+
+.chart-center span {
+    font-size: 13px;
+    color: #666;
+}
+
+.health-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 240px;
+}
+
+.legend-item strong {
+    margin-left: auto;
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.healthy-color {
+    background-color: #6a994e;
+}
+
+.attention-color {
+    background-color: #ffc300;
+}
+
+.critical-color {
+    background-color: #d00000;
 }
 
 
