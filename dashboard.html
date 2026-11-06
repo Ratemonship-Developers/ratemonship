@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>Ratemonship | Dashboard </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head> 
+<body>
+<header class = "topbar">
+</header>
+<main class="medium">
+    <section class="stats-grid">
 
+    <!-- Total Ships -->
+    <div class="stat-box total-ships">
+        <div class="stat-content">
+            <i class="fa-solid fa-ship"></i>
+            <div>
+                <h3>Total Ships</h3>
+                <strong>5</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Healthy -->
+    <div class="stat-box healthy">
+        <div class="stat-content">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+                <h3>Healthy</h3>
+                <strong>3</strong>
+                <p>60%</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Needs Attention -->
+    <div class="stat-box attention">
+        <div class="stat-content">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <div>
+                <h3>Needs Attention</h3>
+                <strong>1</strong>
+                <p>20%</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Critical -->
+    <div class="stat-box critical">
+        <div class="stat-content">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <div>
+                <h3>Critical</h3>
+                <strong>1</strong>
+                <p>60%</p>
+            </div>
+        </div>
+    </div>
+    
+    </section>
+
+    <div class="dashboard-grid"> 
+    
+        <! -- Fleet Health Overview -->
+        <section class="fleet-overview">
+        <h2>Fleet Health Overview</h2>
+
+        <div class="health-container">
+            <div class="chart">
+                <div class="donut-chart">
+                    <div class="chart-center">
+                        <strong>5</strong>
+                        <p>Total Ships</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="health-legend">
+                <div class="legend-item">
+                    <span class="legend-color healthy-color"></span>
+                    <p>Healthy</p>
+                    <strong>3</strong>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color attention-color"></span>
+                    <p>Needs Attention</p>
+                    <strong>1</strong>
+                </div>
+
+                <div class="legend-item">
+                    <span class="legend-color critical-color"></span>
+                    <p>Critical</p>
+                    <strong>1</strong>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <! -- Recent Alerts -->
+        <section class="recent-alerts">
+        <div class="statTwo-box">
+            <h3>Recent Alerts</h3>
+
+            <div class="alert-item Danger">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <div>
+                    <strong>Engine temperature high-RM-003</strong>
+                    <p>2 hours ago</p>
+                </div>
+            </div>
+
+            <div class="alert-item Warning">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <div>
+                    <strong>Low fuel level-RM-006</strong>
+                    <p>8 hours ago</p>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    
+    <! -- Ship List Table -->
+    <div>
+        <table>
+  <!-- Header Row -->
+            <tr>
+                <th>Ship Name/ID</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Last Maintanence</th>
+                <th>Next Maintanence</th>
+            </tr>
+  <!-- Data Row 1 -->
+            <tr>
+                <td><b>Ocean Star</b><small>RM-001</small></td>
+                <td>Atlantic Ocean</td>
+                <td>
+                    <span class="status healthy">
+                        <span class="status-dot"></span>
+                        Healthy
+                    </span>
+                </td>
+                <td>Oct 29, 2026</td>
+                <td>Jan 10, 2027</td>
+            </tr>
+  <!-- Data Row 2 -->
+          <tr>
+            <td><b>Blue Horizon</b><small>RM-002</small></td>
+            <td>Pacific Ocean</td>
+            <td>
+                <span class="status warning">
+                    <span class="status-dot"></span>
+                    Warning
+                </span>
+            </td>
+            <td>Nov 14, 2026</td>
+            <td>Dec 31, 2026</td>
+          </tr>
+    <!-- Data Row 3 -->
+          <tr>
+            <td><b>Sea Explorer</b><small>RM-003</small></td>
+            <td>Indian Ocean</td>
+            <td>
+                <span class="status critical">
+                    <span class="status-dot"></span>
+                    Critical
+                </span>
+            </td>
+            <td>Mar 5, 2026</td>
+            <td style="color: #d00000;">Overdue</td>
+          </tr>
+     <!-- Data Row 4 -->
+          <tr>
+            <td><b>Marine Voyager</b><small>RM-004</small></td>
+            <td>Indian Ocean</td>
+            <td>
+                <span class="status healthy">
+                    <span class="status-dot"></span>
+                    Healthy
+                </span>
+            </td>
+            <td>Sep 1, 2026</td>
+            <td>Jan 20, 2027</td>
+          </tr>
+     <!-- Data Row 5-->
+          <tr>
+            <td><b>Wave Rider</b><small>RM-006</small></td>
+            <td>South Pacific</td>
+            <td>
+                <span class="status healthy">
+                    <span class="status-dot"></span>
+                    Healthy
+                </span>
+            </td>            
+            <td>Jul 28, 2026</td>
+            <td>Feb 2, 2027</td>
+          </tr>
+        </table>
+    </div>
+    
+</main>
+</body>
+</html>
