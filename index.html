@@ -87,9 +87,24 @@
       margin-top: 80px;
     }
 
-    .hero-text { max-width: 560px; }
-    .hero-text h2 { font-size: 48px; text-transform: uppercase; line-height: 1.15; }
-    .hero-text p  { font-size: 18px; line-height: 1.8; margin-top: 20px; }
+    .hero-text {
+    max-width: 600px;
+    }
+
+    .hero-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: white;
+    }
+
+    .hero-text p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-top: 22px;
+    color: #d2e3ef;
+    }
 
     /* The RATEMONSHIP sign */
     .sign-area { text-align: center; }
@@ -122,20 +137,38 @@
       padding: 80px 20px 100px;
     }
 
-    /* Wide welcome bubble */
-    .welcome-bubble {
-      background: rgba(255, 255, 255, 0.85);
-      border: 3px solid white;
-      border-radius: 50%;
-      max-width: 800px;
-      margin: 0 auto 70px;
-      padding: 60px 120px;
-      text-align: center;
-    }
-    .welcome-bubble h1 { letter-spacing: 5px; margin-bottom: 10px; }
-    .welcome-bubble p  { font-size: 18px; line-height: 1.5; }
-    .slogan { font-style: italic; font-weight: bold; margin-top: 10px; }
+    /* ---------- Welcome section ---------- */
 
+    .welcome-bubble {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      max-width: 850px;
+      margin: 0 auto 65px;
+      padding: 45px 60px;
+      text-align: center;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .welcome-bubble h1 {
+      font-size: 32px;
+      color: #103b57;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+
+    .welcome-bubble p {
+      font-size: 17px;
+      color: #526779;
+      line-height: 1.7;
+    }
+
+    .slogan {
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 12px;
+      color: #1686b5;
+    }
+    
     /* Four section bubbles */
     .sections {
       display: flex;
@@ -200,10 +233,6 @@
           Monitor ship health, track maintenance requirements,
           and identify potential issues through one centralized platform.
         </p>
-
-        <a href="dashboard.html" class="hero-button">
-          Explore Dashboard
-        </a>
 
       </div>
 
