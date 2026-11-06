@@ -1,5 +1,7 @@
 // SAMPLE SHIP INFORMATION
 
+// SAMPLE SHIP INFORMATION
+
 const ships = [
 
     {
@@ -36,7 +38,7 @@ const ships = [
         status: "Healthy",
         color: "#6a994e",
         coordinates: [-25, -10]
-    }
+    },
 
     {
         name: "Wave Rider",
@@ -44,7 +46,7 @@ const ships = [
         ocean: "South Pacific",
         status: "Healthy",
         color: "#6a994e",
-        coordinates: [-25, -200]
+        coordinates: [-25, 160]
     }
 
 ];
