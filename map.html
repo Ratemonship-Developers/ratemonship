@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>Ratemonship | Map </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href=""https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"">
+</head> 
+<body>
+<header class = "topbar">
+</header>
+<main>
+   <div class="heading">
+     <h1>Fleet Map</h1>
+     <p>View real-time locations and status of all ships.</p>
+   </div>
+     
+  <section class = "map-layout">
+    <! -- Ship List Table -->
+    <div>
+        <table>
+  <!-- Header Row -->
+            <tr>
+                <th>Ship Name/ID</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Speed</th>
+            </tr>
+  <!-- Data Row 1 -->
+            <tr>
+                <td><b>Ocean Star</b><small>RM-001</small></td>
+                <td>Atlantic Ocean</td>
+                <td>
+                    <span class="status healthy">
+                        <span class="status-dot"></span>
+                        Healthy
+                    </span>
+                </td>
+                <td>26 km/h</td>
+            </tr>
+  <!-- Data Row 2 -->
+          <tr>
+            <td><b>Blue Horizon</b><small>RM-002</small></td>
+            <td>Pacific Ocean</td>
+            <td>
+                <span class="status warning">
+                    <span class="status-dot"></span>
+                    Warning
+                </span>
+            </td>
+            <td>19 km/h</td>
+          </tr>
+    <!-- Data Row 3 -->
+          <tr>
+            <td><b>Sea Explorer</b><small>RM-003</small></td>
+            <td>Indian Ocean</td>
+            <td>
+                <span class="status critical">
+                    <span class="status-dot"></span>
+                    Critical
+                </span>
+            </td>
+            <td>14 km/h</td>
+          </tr>
+     <!-- Data Row 4 -->
+          <tr>
+            <td><b>Marine Voyager</b><small>RM-004</small></td>
+            <td>Indian Ocean</td>
+            <td>
+                <span class="status healthy">
+                    <span class="status-dot"></span>
+                    Healthy
+                </span>
+            </td>
+            <td>23 km/h</td>
+          </tr>
+     <!-- Data Row 5-->
+          <tr>
+            <td><b>Wave Rider</b><small>RM-006</small></td>
+            <td>South Pacific</td>
+            <td>
+                <span class="status healthy">
+                    <span class="status-dot"></span>
+                    Healthy
+                </span>
+            </td>            
+            <td>24 km/h</td>
+          </tr>
+        </table>
+    </div>
+  
+  </section>
+</main>
+</body>
+</html>
