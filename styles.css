@@ -210,6 +210,10 @@
 
 
 /* FLEET TABLE */
+.table-scroll {
+    overflow-x: auto;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -217,8 +221,24 @@ table {
     white-space: nowrap;
 }
 
+th {
+    background: #f5f8fa;
+    color: #718096;
+    font-size: 12px;
+}
+
 td, th {
     padding: 13px 10px;
     border-bottom: 1px solid #e5ebf1;
     font-size: 12px;
+}
+
+td b {
+    display: block;
+}
+
+td small {
+    display: block;
+    color: #718096;
+    margin-top: 5px;
 }
