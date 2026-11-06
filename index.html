@@ -108,27 +108,18 @@
 
     /* The RATEMONSHIP sign */
     .sign-area { text-align: center; }
-    .sign {
-      background: white;
-      color: #0d5c78;
-      border: 4px solid #0d5c78;
-      border-radius: 6px;
-      padding: 16px 30px;
-      font-size: 40px;
-      font-weight: bold;
-      letter-spacing: 3px;
-      white-space: nowrap;
+    
+    .hero-image {
+      flex: 1;
+      max-width: 520px;
     }
 
-    /* Ship with the "Produced by" cloud */
-    .ship { font-size: 70px; margin-top: 30px; }
-    .produced {
-      display: inline-block;
-      background: white;
-      color: #0d5c78;
-      padding: 12px 24px;
-      font-size: 14px;
-      border-radius: 60% 40% 55% 45% / 60% 55% 45% 40%;
+    .hero-image img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     }
 
     /* ---------- Underwater part ---------- */
@@ -264,17 +255,12 @@
 
       </div>
 
-      <div class="sign-area">
+      <div class="hero-image">
 
-        <div class="sign">Ratemonship</div>
+        <img src="images/cargo-ship.jpg"
+           alt="Cargo ship sailing across the ocean">
 
-        <div class="ship">🚢</div>
-
-        <div class="produced">
-          Produced by: <strong>MonRate.co</strong>
-        </div>
-
-        </div>
+      </div>
 
     </div>
   </header>
