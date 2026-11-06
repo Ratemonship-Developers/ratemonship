@@ -46,7 +46,7 @@ const ships = [
         ocean: "South Pacific",
         status: "Healthy",
         color: "#6a994e",
-        coordinates: [-25, 160]
+        coordinates: [-25, -160]
     }
 
 ];
