@@ -274,3 +274,12 @@ td small {
 .critical.status-dot {
     background-color: #d00000;
 }
+
+/* MAP PAGE */
+.map-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+
