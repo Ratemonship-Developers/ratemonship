@@ -1,4 +1,4 @@
-
+/* Status Boxes at top of the page */
 * {
     box-sizing: border-box;
 }
@@ -62,7 +62,7 @@
 }
 
 
-
+/* Fleet Health Overview */
 .fleet-overview {
     background-color: white;
     padding: 25px;
@@ -157,7 +157,7 @@
     background-color: #d00000;
 }
 
-
+/* Recent Alerts */
 .dashboard-grid {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
