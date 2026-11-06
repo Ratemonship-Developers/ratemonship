@@ -206,3 +206,19 @@
     color: #666666;
     margin: 5px 0;
 }
+
+
+
+/* FLEET TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    white-space: nowrap;
+}
+
+td, th {
+    padding: 13px 10px;
+    border-bottom: 1px solid #e5ebf1;
+    font-size: 12px;
+}
