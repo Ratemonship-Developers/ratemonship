@@ -263,15 +263,15 @@ td small {
     display: inline-block;
 }
 
-.healthy.status-dot {
+.healthy .status-dot {
     background-color: #6a994e;
 }
 
-.warning.status-dot {
+.warning .status-dot {
     background-color: #ffc300;
 }
 
-.critical.status-dot {
+.critical .status-dot {
     background-color: #d00000;
 }
 
