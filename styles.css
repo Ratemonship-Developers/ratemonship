@@ -283,6 +283,8 @@ td small {
 }
 
 .list-table {
-  margin-left: auto;
-  margin-right: auto;
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-sizing: border-box;
 }
