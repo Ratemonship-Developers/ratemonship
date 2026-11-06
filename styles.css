@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.heading {
+    margin-bottom: 25px;
+}
+
 .stats-grid { 
   display: flex;
   justify-content: center;
