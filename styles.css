@@ -243,3 +243,30 @@ td small {
     margin-top: 5px;
     font-size: 14px;
 }
+
+.status {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.healthy.status-dot {
+    background-color: #6a994e;
+}
+
+.warning.status-dot {
+    background-color: #ffc300;
+}
+
+.critical.status-dot {
+    background-color: #d00000;
+}
