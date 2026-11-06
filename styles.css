@@ -224,13 +224,13 @@ table {
 th {
     background: #f5f8fa;
     color: #718096;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 td, th {
     padding: 13px 10px;
     border-bottom: 1px solid #e5ebf1;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 td b {
