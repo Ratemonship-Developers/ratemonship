@@ -104,7 +104,9 @@ document.querySelectorAll(".ship-list-item").forEach(function(button) {
 
         const ship = ships[shipIndex];
 
-        map.setView(ship.coordinates, 4);
+        map.flyTo(ship.coordinates, 4, {
+            duration: 1.5
+        });
 
         markers[shipIndex].openPopup();
 
