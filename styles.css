@@ -341,3 +341,24 @@ td small {
     font-weight: bold;
     margin: 20px 0;
 }
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pricing-features li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #444;
+}
+
+.checkmark {
+    color: #0a2438;
+    font-size: 18px;
+    font-weight: bold;
+}
