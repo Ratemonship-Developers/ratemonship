@@ -320,3 +320,18 @@ td small {
     width: 100%;
     border-collapse: collapse;
 }
+
+/* PRICING PAGE */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.price-card {
+    background: white;
+    padding: 27px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000010;
+    position: relative;
+}
