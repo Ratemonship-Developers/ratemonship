@@ -440,11 +440,6 @@ td small {
     margin-bottom: 8px;
 }
 
-.signup-box > p {
-    text-align: center;
-    color: #666;
-}
-
 .signup-box form {
     display: flex;
     flex-direction: column;
