@@ -1,3 +1,70 @@
+/* ---------- Basics ---------- */
+/* Navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+/* Logo */
+.logo {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+/* Navigation links */
+.links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}  
+
+/* Individual links */
+.links a {
+    background: none;
+    color: #dceaf3;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+    border-radius: 0;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.links a:hover {
+    color: #65c8f0;
+}
+
+/* Sign up button */
+    .links a:last-child {
+    background: #1686b5;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.links a:last-child:hover {
+    background: #249dce;
+}
+    
+
+/* ---------- Small screens ---------- */
+@media (max-width: 700px) {
+      .hero { padding: 20px; }
+      .hero-text h2 { font-size: 32px; }
+      .sign { font-size: 24px; padding: 12px 18px; }
+      .welcome-bubble { padding: 40px 40px; }
+}
+
+
 body {
     background-color: #102A43; 
 }
