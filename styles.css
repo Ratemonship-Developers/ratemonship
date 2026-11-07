@@ -335,3 +335,9 @@ td small {
     box-shadow: 0 2px 8px #00000010;
     position: relative;
 }
+
+.price {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0;
+}
