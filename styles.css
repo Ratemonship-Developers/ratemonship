@@ -309,19 +309,3 @@ td small {
     z-index: 1;
 }
 
-/* Clickable Ship Names */
-
-.ship-list-item {
-    display: flex;
-    flex-direction: column;
-    background: none;
-    border: none;
-    cursor: pointer;
-    text-align: left;
-    color: inherit;
-    padding: 5px;
-}
-
-.ship-list-item:hover {
-    color: #2c6e91;
-}
