@@ -478,14 +478,3 @@ td small {
 .signup-box button:hover {
     background-color: #125487;
 }
-
-.login-link {
-    margin-top: 20px;
-    font-size: 14px;
-}
-
-.login-link a {
-    color: #1769aa;
-    text-decoration: none;
-    font-weight: bold;
-}
