@@ -54,15 +54,6 @@ const ships = [
 const map = L.map("fleetMap").setView([5, 0], 2);
 
 
-// ADD MAP LAYERS
-
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-
-    attribution: "© OpenStreetMap contributors"
-
-}).addTo(map);
-
-
 // ADD SHIP MARKERS
 
 const markers = [];
