@@ -386,12 +386,12 @@ td small {
     border: 2px solid #267eb5;
 }
 
-.custom-plan {   
+.custom-plan {
     display: flex;
-    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     white-space: nowrap;
-    padding: 18px;
     background: #e8f2f8;
-    border-radius: 8px;
     color: #587286;
 }
