@@ -18,7 +18,7 @@ const ships = [
         id: "RM-002",
         ocean: "Pacific Ocean",
         status: "Warning",
-        color: "#e5a52e",
+        color: "#ffc300",
         coordinates: [25, -145]
     },
 
@@ -27,7 +27,7 @@ const ships = [
         id: "RM-003",
         ocean: "Indian Ocean",
         status: "Critical",
-        color: "#ffc300",
+        color: #d00000",
         coordinates: [-20, 80]
     },
 
