@@ -1,3 +1,7 @@
+body {
+    background-color: #F3F6FA;
+}
+
 /* Status Boxes at top of the page */
 * {
     box-sizing: border-box;
