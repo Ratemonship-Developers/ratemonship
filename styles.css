@@ -275,20 +275,6 @@ td small {
     background-color: #d00000;
 }
 
-/* MAP PAGE */
-.map-layout {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
-}
-
-.list-table {
-    width: 100%;
-    margin: 0 auto;
-    border-collapse: collapse;
-    box-sizing: border-box;
-}
-
 /* Map Layout */
 
 .map-layout {
