@@ -5,7 +5,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 0;
+    padding: 15px 30px;
     border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
@@ -24,7 +24,8 @@ nav .nav-links {
     display: flex;
     align-items: center;
     gap: 35px;
-}  
+    list-style: none;
+}
 
 /* Individual links */
 nav .nav-links a {
@@ -44,7 +45,7 @@ nav .nav-links a:hover {
 }
 
 /* Sign up button */
-    .links a:last-child {
+nav .nav-links li:last-child a {
     background: #1686b5;
     color: white;
     padding: 12px 22px;
@@ -52,10 +53,10 @@ nav .nav-links a:hover {
     font-weight: bold;
 }
 
-.links a:last-child:hover {
+nav .nav-links li:last-child a:hover {
     background: #249dce;
+    color: white;
 }
-    
 
 /* ---------- Small screens ---------- */
 @media (max-width: 700px) {
