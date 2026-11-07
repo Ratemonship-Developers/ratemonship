@@ -388,6 +388,7 @@ td small {
 
 .pricing-note {
     margin-top: 40px;
+    white-space: nowrap;
     padding: 18px;
     background: #e8f2f8;
     border-radius: 8px;
