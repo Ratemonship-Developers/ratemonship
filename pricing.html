@@ -5,7 +5,6 @@
     <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
     <title>Ratemonship | Map </title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head> 
 <body>
 <header class = "topbar">
@@ -15,24 +14,45 @@
         <h1>Simple Pricing for Smarter Ship Management</h1>
    </div>
    <section class="pricing-grid">
-
-        <div class="price-card">
+       
+       <div class="price-card">
 
             <h3>BASIC</h3>
             <p>Perfect for small fleets</p>
             <div class="price">$29<small>/month</small></div>
 
-            <ul>
-                <li>Up to 5 ships</li>
-                <li>Real-time monitoring</li>
-                <li>Basic alerts</li>
-                <li>Email support</li>
+            <ul class="pricing-features">
+                <li><span class="checkmark">✓</span> Up to 5 ships</li>
+                <li><span class="checkmark">✓</span> Real-time monitoring</li>
+                <li><span class="checkmark">✓</span> Basic alerts</li>
+                <li><span class="checkmark">✓</span> Email support</li>
+            </ul>
+
+             <button onclick="alert('Demo only!')">
+                Get Started
+            </button>
+       </div>
+
+       <div class="price-card">
+
+            <h3>ENTERPRISE</h3>
+            <p>For large operations</p>
+            <div class="price">$149<small>/month</small></div>
+
+            <ul class="pricing-features">
+                <li><span class="checkmark">✓</span> Unlimited ships</li>
+                <li><span class="checkmark">✓</span> Full analytics & reporting</li>
+                <li><span class="checkmark">✓</span> API access</li>
+                <li><span class="checkmark">✓</span> Dedicated support</li>
+                <li><span class="checkmark">✓</span> Customer integrations</li>
             </ul>
 
              <button onclick="alert('Demo only!')">
                 Get Started
             </button>
 
-    </div>
+        </div>
+
+    </section>
 
 <main>
