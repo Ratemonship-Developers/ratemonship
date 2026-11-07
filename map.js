@@ -1,7 +1,4 @@
 // SAMPLE SHIP INFORMATION
-
-// SAMPLE SHIP INFORMATION
-
 const ships = [
 
     {
