@@ -362,3 +362,26 @@ td small {
     font-size: 18px;
     font-weight: bold;
 }
+
+.popular {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    background: #267eb5;
+    color: white;
+    padding: 7px;
+    font-size: 10px;
+}
+
+.price-card button:hover {
+    background: #edf7fc;
+}
+
+.price-card button.primary-button {
+    background: #155b88;
+    color: white;
+}
+
+.featured {
+    border: 2px solid #267eb5;
+}
