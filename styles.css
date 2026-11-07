@@ -1,6 +1,7 @@
 /* ---------- Basics ---------- */
 /* Navigation bar */
 nav {
+    background-color: #102A43;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +10,7 @@ nav {
 }
 
 /* Logo */
-.logo {
+nav .logo {
     font-family: Arial, sans-serif;
     font-size: 25px;
     font-weight: bold;
@@ -19,14 +20,14 @@ nav {
 }
 
 /* Navigation links */
-.links {
+nav .nav-links {
     display: flex;
     align-items: center;
     gap: 35px;
 }  
 
 /* Individual links */
-.links a {
+nav .nav-links a {
     background: none;
     color: #dceaf3;
     text-decoration: none;
@@ -38,7 +39,7 @@ nav {
 }
 
 /* Hover effect */
-.links a:hover {
+nav .nav-links a:hover {
     color: #65c8f0;
 }
 
