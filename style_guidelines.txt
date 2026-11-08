@@ -1,0 +1,82 @@
+Overall Look and Feel of Ratemonship
+====================================
+
+Ratemonship uses a modern, professional, and user-friendly design style. 
+The design uses a blue colour palette with a navy-blue navigation bar, ocean-inspired blue colours, and light backgrounds showing reliability and trust. 
+All pages will have consistent visuals to provide a calm user experience.
+
+Colours  
+=======
+
+The website will use an ocean-inspired colour palette to show customers its focus on ship monitoring and fleet management. 
+The main colour scheme uses dark navy blue, ocean blue, light blue, white, and light grey. 
+Green, yellow, and red are used to show the health and condition of ships.
+
+Primary colours:
+
+- Dark Navy (#102A43)
+
+- Deep Ocean Blue (#06182A)
+
+- Ocean Blue (#1769AA)
+
+- Medium Blue (#1A4566)
+
+- Light Ocean Blue (#2A6590)
+
+- Accent Blue (#1686B5)
+
+- Light Blue (#65C8F0)
+
+- Pale Blue (#DCEAF3)
+
+Ship status colours:
+
+- Healthy Green (#6A994E)
+
+- Attention Yellow (#FFC300)
+
+- Critical Red (#D00000)
+
+Layout  
+======
+
+Ratemonship uses a clean, organized layout with a consistent navigation bar across all pages. 
+The homepage uses a dark ocean-inspired main section, followed by a welcome section and feature cards. 
+The Dashboard, Map, Pricing, and Sign Up pages use structured content sections and clear spacing to make information easy to navigate and understand.
+
+Iconography
+===========
+
+Icons are used to make information easier to recognize and understand.
+The website uses Font Awesome icons. 
+Icons are simple, recognizable, and consistent.
+We will focus on using icons that have a 'flat' design in size and style.
+
+Typography
+===========
+
+The website uses a clean, readable sans-serif font. The preferred fonts are Arial and sans-serif fonts. 
+Font sizes and weights are consistent across all website pages.
+
+Links
+=====
+
+Links are consistent across all pages. 
+They will use light text (#DCEAF3) against the navy background. 
+On hover, links will change to light blue (#65C8F0).
+They will use smooth colour transitions.
+
+Buttons
+=======
+
+The buttons will have rounded corners and have consistent sizing and styling throughout the website. 
+They will use ocean blue (#1686B5) and white text.
+The button background will change to a lighter blue(#249DCE) when hovered over. 
+
+Accessibility
+=============
+
+Our website can be used on different screen sizes, including mobile devices. 
+We will include descriptive labels for form fields. 
+Our website will support navigation, and interactive elements can be accessed using a keyboard.
