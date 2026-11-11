@@ -547,10 +547,17 @@ td small {
     background-color: #125487;
 }
 
+/* About Us page*/
 .description-box { 
     border-radius: 12px;
     max-width: 300px;
     margin: 0 auto 65px;
     padding: 45px 60px;
     text-align: center;
+}
+.hero-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
 }
