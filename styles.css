@@ -553,13 +553,7 @@ td small {
     margin: 0 auto;
     padding: 30px 20px;
 }
- 
-.about-intro {
-    color: #555555;
-    line-height: 1.6;
-    margin-top: 8px;
-}
- 
+  
 .team-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
