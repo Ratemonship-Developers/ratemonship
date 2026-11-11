@@ -546,3 +546,11 @@ td small {
 .signup-box button:hover {
     background-color: #125487;
 }
+
+.description-box { 
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 0 auto 65px;
+    padding: 45px 60px;
+    text-align: center;
+}
