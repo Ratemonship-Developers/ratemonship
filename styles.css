@@ -104,6 +104,7 @@ body {
 
 .statuses-content icon {
     font-size: 50px;
+    align-items: center
     flex-shrink: 0;
 }
 
