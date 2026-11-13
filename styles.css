@@ -593,9 +593,3 @@ td small {
     object-fit: cover;
 }
  
-/* Stack the cards on small screens */
-@media (max-width: 700px) {
-    .team-grid {
-        grid-template-columns: 1fr;
-    }
-}
