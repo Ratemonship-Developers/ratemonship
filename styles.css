@@ -66,7 +66,7 @@ nav .nav-links li:last-child a:hover {
       .welcome-bubble { padding: 40px 40px; }
 }
 
-
+/* style for Dashboard page */
 body {
     background-color: #F3F6FA; 
 }
@@ -80,15 +80,14 @@ body {
     margin-bottom: 25px;
 }
 
-.stats-grid { 
+.statuses-grid { 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px; 
-  flex-wrap: wrap; 
 }
 
-.stat-box { 
+.statuses-box { 
   width: 250px; 
   height: 140px; 
   padding: 20px; 
@@ -97,43 +96,42 @@ body {
   border-style: solid;
 }
 
-.stat-content {
+.statuses-content {
     display: flex;
     align-items: center;
     gap: 20px;
-    height: 100%
 }
 
-.stat-content i {
+.statuses-content icon {
     font-size: 30px;
     flex-shrink: 0;
 }
 
-.stat-box strong {
+.statuses-box strong {
     font-size: 26px;
 }
 
-.stat-box h3 {
+.statuses-box h3 {
     margin-top: 0;
 }
 
 /* Unique color variations */
-.stat-box.total-ships { 
+.statuses-box.total-ships { 
   color: #124dc4; 
   border-color: #124dc4; 
 }
 
-.stat-box.healthy { 
+.statuses-box.healthy { 
   color: #6a994e; 
   border-color: #6a994e; 
 }
 
-.stat-box.attention { 
+.statuses-box.attention { 
   color: #ffc300; 
   border-color: #ffc300; 
 }
 
-.stat-box.critical { 
+.statuses-box.critical { 
   color: #d00000; 
   border-color: #d00000; 
 }
@@ -146,7 +144,6 @@ body {
     width: 100%;
     max-width: 1000px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
 }
 
