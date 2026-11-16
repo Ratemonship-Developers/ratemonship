@@ -176,27 +176,6 @@ body {
     justify-content: center;
 }
 
-.chart-center {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.chart-center strong {
-    font-size: 30px;
-    color: #17365d;
-}
-
-.chart-center p {
-    font-size: 13px;
-    color: #000000;
-}
-
 .health-legend {
     display: flex;
     flex-direction: column;
