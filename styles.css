@@ -52,7 +52,6 @@ nav .nav-links li:last-child a {
     font-weight: bold;
 }
 
-
 /* ---------- Small screens ---------- */
 @media (max-width: 700px) {
       .hero { padding: 20px; }
