@@ -6,7 +6,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
 /* Logo */
@@ -53,10 +52,6 @@ nav .nav-links li:last-child a {
     font-weight: bold;
 }
 
-nav .nav-links li:last-child a:hover {
-    background: #249dce;
-    color: white;
-}
 
 /* ---------- Small screens ---------- */
 @media (max-width: 700px) {
